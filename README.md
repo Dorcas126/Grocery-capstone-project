@@ -44,7 +44,7 @@ Javascript
 - *[Linter is used]*
 
 <!-- LIVE DEMO -->
-## [🚀Live Demo](https://dorcas126.github.io/Microverse-Portofolio-project/)
+## [🚀Live Demo](https://dorcas126.github.io/Grocery-capstone-project/)(https://www.loom.com/share/70b2cf463d244bf3b7b6e77366e09541)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Prerequisites
