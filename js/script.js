@@ -2,30 +2,36 @@ const searchForm = document.querySelector('.search-form');
 
 document.querySelector('#search-btn').onclick = () => {
   searchForm.classList.toggle('active');
+  const shoppingCart = [];
   shoppingCart.classList.remove('active');
+  const loginForm = [];
   loginForm.classList.remove('active');
+  const navbar = [];
   navbar.classList.remove('active');
 };
 
-let shoppingCart = document.querySelector('.shopping-cart');
+const shoppingCart = document.querySelector('.shopping-cart');
 
 document.querySelector('#cart-btn').onclick = () => {
   shoppingCart.classList.toggle('active');
   searchForm.classList.remove('active');
+  const loginForm = [];
   loginForm.classList.remove('active');
+  const navbar = [];
   navbar.classList.remove('active');
 };
 
-let loginForm = document.querySelector('.login-form');
+const loginForm = document.querySelector('.login-form');
 
 document.querySelector('#login-btn').onclick = () => {
   loginForm.classList.toggle('active');
   searchForm.classList.remove('active');
   shoppingCart.classList.remove('active');
+  const navbar = [];
   navbar.classList.remove('active');
 };
 
-let navbar = document.querySelector('.navbar');
+const navbar = document.querySelector('.navbar');
 
 document.querySelector('#menu-btn').onclick = () => {
   navbar.classList.toggle('active');
@@ -41,7 +47,7 @@ window.onscroll = () => {
   navbar.classList.remove('active');
 };
 
-var swiper = new Swiper('.product-slider', {
+const Swiper = new Swiper('.product-slider', {
   loop: true,
   spaceBetween: 20,
   autoplay: {
@@ -61,7 +67,7 @@ var swiper = new Swiper('.product-slider', {
   },
 });
 
-var swiper = new Swiper('.review-slider', {
+const swiper = new Swiper('.review-slider', {
   loop: true,
   spaceBetween: 20,
   autoplay: {
