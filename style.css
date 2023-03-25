@@ -219,7 +219,40 @@ body {
 }
 
 .spokePerson {
-  
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 18px;
+}
+
+.spokeimg {
+  width: 100px;
+  height: 120px;
+}
+
+.spoke {
+
+}
+
+.spokeTitle {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--box-shadow);
+
+}
+
+.spokeP1 {
+  padding: 15px 0;
+  color: #ff7800;
+  font-size:10px;
+  font-weight: 700;
+}
+
+.spokeP2 {  
+   font-size: 10px;
+  font-weight: 700;
+   color: #1a1818;
 }
 
 /* .btn {
