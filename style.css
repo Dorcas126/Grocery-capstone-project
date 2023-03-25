@@ -10,6 +10,12 @@
   --outline-hover: 0.2rem solid var(--black);
 }
 
+body::before {
+  display: block;
+  content: "";
+  height: 50px;
+}
+
 * {
   font-family: 'Lato', sans-serif;
   margin: 0;
@@ -24,13 +30,72 @@
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   scroll-behavior: smooth;
 }
 
 body {
   background-image: url(./image/white_wave_bg.jpg)
 }
+
+.navMenu {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-list {
+    background-color: #000;
+    position: fixed;
+    top: 15%;
+    width: 40%;
+    height: 100%;
+    display: none;
+  }
+  
+  .nav-items  {
+    padding: 20px 25px;
+    list-style: none;
+    /* position: fixed; */
+    /* padding-top: 44px; */
+  }
+
+  .desktop_nav_list {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .nav-list {
+    display: none;
+  }
+
+  .desktop_nav_list {
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+    list-style: none;
+  }
+
+  .desktop_nav_items {
+    padding: 0px 8px 0px 8px;
+  }
+
+  .desktop_nav_items a {
+    color: #000;
+  }
+
+  .hamburgerBar {
+    display: none;
+  }
+}
+
+
+.nav-items a {
+  color: #fff;
+}
+
 
 #media {
   display: flex;
@@ -41,6 +106,39 @@ body {
   padding: 5px;
 }
 
+.hamburger {
+  display: block;
+  cursor: pointer;
+}
+
+.hamburgerBar{
+  width: 24px;
+  height: 3px;
+  background-color: #000;
+  margin: 5px;
+  transition: all 0.3s ease-in-out;
+  /* -webkit-transitiona:all 0.3s ease-in-out ; */
+}
+
+.active {
+  display: block;
+}
+
+.hamburger.hamburger_active .hamburgerBar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.hamburger_active .hamburgerBar:nth-child(1) {
+  transform: translateY(8px) rotate(43deg);
+}
+
+.hamburger.hamburger_active .hamburgerBar:nth-child(3) {
+  transform: translateY(-8px) rotate(-43deg);
+}
+
+.nav-items.active {
+  left: 0;
+}
 .mediaItems {
   display: flex;
   gap: 10px;
@@ -71,6 +169,8 @@ body {
 
 .navbar {
   display: flex;
+  align-items: center;
+  width: 100%;
   justify-content: space-around;
   padding: 20px;
   background: #fff;
