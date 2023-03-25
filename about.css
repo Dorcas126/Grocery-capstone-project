@@ -1,0 +1,182 @@
+.greeting {
+    color: rgb(221, 56, 56);
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .intro {
+    color: rgb(184, 3, 3);
+    font-size: 20px;
+  }
+  
+  .page-title {
+    padding: 5px;
+  }
+  
+  .page-title2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .program-span {
+    display: flex;
+    color: #d3d3d3;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+  }
+  
+  .line {
+    width: 50px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid red;
+  }
+  
+  .more-info {
+    background-color: #d3d3d3;
+    box-shadow: 0 0 2px #272a31;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .more-info2 {
+    background-color: #fff;
+    box-shadow: 0 0 2px #d3d3d3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .p-tag {
+    padding: 10px;
+  }
+  
+  .p-tag2 {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .first-btn-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .first-btn {
+    border: none;
+    background-color: rgb(221, 56, 56);
+    padding: 30px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .summit {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .summit-logo {
+    text-align: center;
+    background-color: #eeedeb;
+    padding: 30px;
+  }
+  
+  .past-event {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .past-event1 {
+    background-image: linear-gradient(rgba(228, 43, 23, 0.5), rgba(221, 43, 23, 0.5)), url(images/second-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40vh;
+    padding: 5% 27%;
+    margin: 0 3%;
+  }
+  
+  .past-event2 {
+    background-image: linear-gradient(rgba(228, 43, 23, 0.5), rgba(221, 43, 23, 0.5)), url(images/fourth-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40vh;
+    padding: 5% 27%;
+    margin: 0 3%;
+  }
+  
+  .past-year {
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    font-family: 'lato', sans-serif;
+  }
+  
+  .past-year h4 {
+    font-size: 20px;
+  }
+  
+  .footer {
+    background-color: #fff;
+    color: #272a31;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-about {
+    background-color: #272a31;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+  }
+  
+  #footer-con {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    gap: 100px;
+  }
+  
+  .md-footer-img {
+    display: none;
+  }
+  
+  .speaker {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 60px;
+  }
+  
+  .connect-sections {
+    background-color: #272a31;
+    padding-bottom: 40px;
+  }
+  
+  .connect-img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 5%;
+  }
+  
+  .main-program2 {
+    text-align: center;
+    padding-top: 20px;
+    color: #757370;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
